@@ -24,7 +24,7 @@
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>update-post</servlet-name>
-		<url-pattern>/update-post/*</url-pattern>
+		<url-pattern>/update-post</url-pattern>
 	</servlet-mapping>
 
 </web-app>

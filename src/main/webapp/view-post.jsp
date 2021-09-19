@@ -59,10 +59,10 @@
 		});
 		
 			//$(".update").click(function(){
-			//If the game pieces are added after the page load (i.e. by clicking a button) you need to use event delegation by using jquery .on()
+			//If the pieces are added after the page load (i.e. by clicking a button) you need to use event delegation by using jquery .on()
 			$(document).on('click','.update', function(){
 				//window.location.replace("/demojson/update-post/"+$(this).val());
-				window.location.replace("/demojson/update-post/2");
+				window.location.replace("/demojson/update-post?id="+$(this).val());
 				//alert($(this).html());
 			});
 	</script>
